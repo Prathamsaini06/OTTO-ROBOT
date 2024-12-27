@@ -1,17 +1,6 @@
 #include <Otto9.h> //-- Otto Library version 9
 Otto9 Otto;  //This is Otto!
 //---------------------------------------------------------
-// Face should be in front of you
-/*
-                 --------------- 
-                |     O   O     |
-                |---------------|
-Left leg =>     |               |    <= Right leg
-                 --------------- 
-                    ||     ||
-Left foot =>     -----   ------     <= Right foot
-                 |-----   ------|
-*/
 // SERVO PINs //////////////////////////////////////////////////////////////////////////////
 #define PIN_YL 8 //servo[0]  left leg
 #define PIN_YR 9 //servo[1]  right leg
